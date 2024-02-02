@@ -91,7 +91,7 @@ class Play extends Phaser.Scene {
     }
 
     update() {
-        this.scores.setText(`Shots: ${this.shotCounter} Score: ${this.score} %: ${this.score / this.shotCounter}`)
+        this.scores.setText(`Shots: ${this.shotCounter} Score: ${this.score} Shot Percentage: ${this.score / this.shotCounter}`)
         
 
     }
